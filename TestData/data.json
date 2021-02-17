@@ -1,5 +1,5 @@
 {
-    "browser": "ch",
+    "browser": "ie",
     "connectionstringdb": "Data Source=COMPUTER\\PIPETTEX;Initial Catalog=openemr;User ID=sa;Password=123456;Integrated Security=true",
     "validcredentialtestdata": [
         [ "admin", "pass", "English" ],
