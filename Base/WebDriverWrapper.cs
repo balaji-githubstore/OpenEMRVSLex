@@ -52,10 +52,7 @@ namespace UnitedLex.OpenEmrAutomation.Base
         public void Initialization()
         {
             string browser = JsonUtils.GetValue(@"D:\B-Mine\Company\Company\Unitedlex\WebAutomationFramework\OpenEmrAutomation\TestData\data.json", "browser");
-          
-            
             browser = TestContext.Parameters.Get("browser", browser);
-
             switch (browser)
             {
                 case "ff":
