@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<test-run id="0" runstate="Runnable" testcasecount="4" result="Passed" total="1" passed="1" failed="0" inconclusive="0" skipped="0" asserts="0" engine-version="3.12.0.0" clr-version="3.1.11" start-time="2021-02-17 06:48:30Z" end-time="2021-02-17 06:48:42Z" duration="11.578712">
+  <command-line><![CDATA[D:\B-Mine\Company\Company\Novac2\NUnit.Console-3.12.0\bin\netcoreapp3.1\nunit3-console.dll OpenEmrAutomation.dll --test=UnitedLex.OpenEmrAutomation.LoginTest.InvalidTest,UnitedLex.OpenEmrAutomation.LoginTest.Forgotpasswordtest]]></command-line>
+  <filter>
+    <or>
+      <test>UnitedLex.OpenEmrAutomation.LoginTest.InvalidTest</test>
+      <test>UnitedLex.OpenEmrAutomation.LoginTest.Forgotpasswordtest</test>
+    </or>
+  </filter>
+  <test-suite type="Assembly" id="1-1006" name="OpenEmrAutomation.dll" fullname="D:/B-Mine/Company/Company/Unitedlex/WebAutomationFramework/OpenEmrAutomation/bin/Debug/netcoreapp3.1/OpenEmrAutomation.dll" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-02-17T06:48:31.0740255Z" end-time="2021-02-17T06:48:42.4628268Z" duration="11.388662" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+    <environment framework-version="3.13.1.0" clr-version="3.1.11" os-version="Microsoft Windows 10.0.18363" platform="Win32NT" cwd="D:\B-Mine\Company\Company\Unitedlex\WebAutomationFramework\OpenEmrAutomation\bin\Debug\netcoreapp3.1" machine-name="COMPUTER" user="Abirami" user-domain="COMPUTER" culture="en-US" uiculture="en-US" os-architecture="x64" />
+    <settings>
+      <setting name="DisposeRunners" value="True" />
+      <setting name="WorkDirectory" value="D:\B-Mine\Company\Company\Unitedlex\WebAutomationFramework\OpenEmrAutomation\bin\Debug\netcoreapp3.1" />
+      <setting name="NumberOfTestWorkers" value="4" />
+    </settings>
+    <properties>
+      <property name="_PID" value="18780" />
+      <property name="_APPDOMAIN" value="nunit3-console" />
+    </properties>
+    <test-suite type="TestSuite" id="1-1007" name="UnitedLex" fullname="UnitedLex" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-02-17T06:48:31.0801163Z" end-time="2021-02-17T06:48:42.4628122Z" duration="11.382693" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+      <test-suite type="TestSuite" id="1-1008" name="OpenEmrAutomation" fullname="UnitedLex.OpenEmrAutomation" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-02-17T06:48:31.0804489Z" end-time="2021-02-17T06:48:42.4627027Z" duration="11.382265" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+        <test-suite type="TestFixture" id="1-1000" name="LoginTest" fullname="UnitedLex.OpenEmrAutomation.LoginTest" classname="UnitedLex.OpenEmrAutomation.LoginTest" runstate="Runnable" testcasecount="4" result="Passed" start-time="2021-02-17T06:48:31.0819276Z" end-time="2021-02-17T06:48:42.4615637Z" duration="11.379653" total="1" passed="1" failed="0" warnings="0" inconclusive="0" skipped="0" asserts="0">
+          <test-case id="1-1004" name="InvalidTest" fullname="UnitedLex.OpenEmrAutomation.LoginTest.InvalidTest" methodname="InvalidTest" classname="UnitedLex.OpenEmrAutomation.LoginTest" runstate="Runnable" seed="710116951" result="Passed" start-time="2021-02-17T06:48:31.1053873Z" end-time="2021-02-17T06:48:37.2868274Z" duration="6.181663" asserts="0">
+            <output><![CDATA[invalid
+]]></output>
+          </test-case>
+        </test-suite>
+      </test-suite>
+    </test-suite>
+  </test-suite>
+</test-run>
